@@ -1,15 +1,14 @@
 <?php
-
 $GLOBALS['config']['db'] = array(
-    'host'=>'127.0.0.1',
-    'user'=>'root',
-    'pass'=>'root',
-    'name'=>'test',
+    'host' => '10.103.13.47',
+    'user' => 'root',
+    'pass' => '',
+    'name' => 'crawl'
 );
 
 $GLOBALS['config']['redis'] = array(
-    'host'=>'127.0.0.1',
-    'port'=>6379,
+    'host' => '10.103.13.47',
+    'port' => 6379
 );
 
 
